@@ -10,7 +10,7 @@ It relies primarily on API access being enabled via `Cloud Console` for a Google
 
 In the context of a public repository `token.json`, `client_secret.json` and `app.log` are sensitive files, with write-permissions for Google Drive, or personal information, and steps have been taken to ensure they are either ommitted or heavily redacted, originals will remain in my own encrypted storage for testing purposes
 
-If another user is testing this, ensure that you download your own `client_secret.json`, delete the placeholder `token.json` and change folder ID in `settings.json`, I am sure other changes may be needed that I have not forseen
+If another user is testing this, ensure that you download your own `client_secret.json` and change folder ID in `settings.json`, I am sure other changes may be needed that I have not forseen
 
 ### Features
 - Select files or folders from your PC for upload
