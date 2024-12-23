@@ -4,7 +4,7 @@ This project exists primarily as a personal learning exercise and is a crude imp
 
 It is likely that I will freeze a similar project to a single-file application in future
 
-This project, in its current state, is linked to the Google Drive account for `guesshuu` and folder ID `1LYpYpQwnPnlK7q7DU5cEPrpmSQZMWE0k`, this folder can be moved and renamed as Google Drive folders have unique IDs
+This project, in its current state, is linked to the Google Drive account for `guesshuu` and a fixed folder ID, this folder can be moved and renamed as Google Drive folders have unique IDs
 
 It relies primarily on API access being enabled via `Cloud Console` for a Google Drive account, and requires a downloaded `client_secret` file in `json` format. With these two steps, the script can generate `token.json`. In future runs `token.json` will be used for authentication, or you will need to reauthenticate and regenerate a valid `token.json` from `client_secret.json`. This project does not cover setting up API access or downloading the initial `client_secret.json`
 
