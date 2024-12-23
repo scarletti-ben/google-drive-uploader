@@ -41,7 +41,16 @@ Run the script in the appropriate virtual environment **:**
 
 ---
 
-## File Structures
+## File Information
+
+### `authenticator.py`
+- Handles `Google Drive` authentication and credentials by **:** 
+  - Reading `token.json`
+  - **Or** generating `token.json` using `OAuth 2.0` sign in via `Google` account
+- Returns a valid `Drive Service` object for interacting with `Google Drive` account
+
+### `uploader.py`
+- Handles file uploads when provided file paths, and a valid / authenticated `Drive Service` object from `authenticator.py`
 
 The directory should have `client_secret.json` in the format
 ```json
