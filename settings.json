@@ -1,0 +1,20 @@
+{
+    "IGNORED_PATTERNS": [
+        "venv",
+        "__pycache__",
+        ".pyc",
+        ".pyo",
+        ".pyo",
+        ".pytest_cache",
+        ".git",
+        ".gitignore",
+        "node_modules",
+        "thumbs.db"
+    ],
+    "SCOPES": [
+        "https://www.googleapis.com/auth/drive"
+    ],
+    "FOLDER_ID": "1LYpYpQwnPnlK7q7DU5cEPrpmSQZMWE0k",
+    "CLIENT_SECRET_PATH": "client_secret.json",
+    "TOKEN_PATH": "token.json"
+}
