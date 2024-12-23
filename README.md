@@ -52,7 +52,12 @@ Run the script in the appropriate virtual environment **:**
 ### `uploader.py`
 - Handles file uploads when provided file paths, and a valid / authenticated `Drive Service` object from `authenticator.py`
 
-The directory should have `client_secret.json` in the format
+### `main.py`
+- Utilises `authenticator.py` and `uploader.py` within a PyQt application
+  - Allows uploading files and folders from a `Windows` PC to the saved `Google Drive` folder
+
+### `client_secret.json`
+Should be in the format below
 ```json
 {
   "installed": {
@@ -65,8 +70,8 @@ The directory should have `client_secret.json` in the format
   }
 }
 ```
-
-The directory should have `token.json` in the format, or it will be generated from `client_secret.json`
+### `token.json` 
+Should be in the format below, or it will be generated from `client_secret.json`
 ```json
 {
   "token": "...", 
